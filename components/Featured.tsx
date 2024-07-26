@@ -68,8 +68,8 @@ export default function Featured() {
                 </h1>
                 <Image
                   src={item.image}
-                  layout="fill"
-                  objectFit="cover"
+                  className=" object-cover object-center"
+                  fill
                   alt=""
                 />
               </div>
